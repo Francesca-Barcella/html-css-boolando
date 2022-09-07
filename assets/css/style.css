@@ -14,6 +14,25 @@ i{
     height: 20px;
 }
 
+.bdg_green{
+    background-color: green;
+    width: 40px;
+    height: 20px;
+}
+
+.bdg_red{
+    background-color: red;
+    width: 70px;
+    height: 20px;
+}
+
+.bdg_heart{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+}
 /* #endregion common */
 
 /* #region utility */
@@ -40,6 +59,8 @@ i{
 .col-4{
     width: calc((100% / 12) * 4);
 }
+
+
 .alg_dx{
     text-align: end;
 }
@@ -84,4 +105,13 @@ li:hover{
 }
 /* #endregion header */
 
+/* #region main - product */
 
+.product{
+    flex-wrap: wrap;
+}
+
+.product .col-4{
+    width: calc(100% / 12 * 4 - 30px);
+}
+/* #region main - product */
