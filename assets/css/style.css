@@ -13,7 +13,6 @@ img {
 i {
     height: 20px;
 }
-
 /* #endregion common */
 
 /* #region utility */
@@ -140,4 +139,25 @@ li:hover {
     font-size: 13px;
     text-align: center;
     padding: 5px;
+}
+
+.txt_red{
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.txt_bar{
+    color: black;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.brand{
+    font-size: 13px;
+}
+.article{
+    font-size: 18px;
+    font-weight: bold;
 }
