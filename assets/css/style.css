@@ -98,14 +98,16 @@ li:hover {
 
 .product {
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .product .col-4 {
     width: calc(100% / 12 * 4 - 30px);
 }
 
-/* #endregion main - product */
+.card{
+    margin-bottom: 30px;
+}
 
 .bdg_heart {
     background-color: white;
@@ -138,6 +140,11 @@ li:hover {
     position: absolute;
     left: 55px;
     bottom: 100px;
+}
+
+.solitario{
+    position: absolute;
+    left: 0;
 }
 
 .bdg_red,
@@ -180,3 +187,11 @@ li:hover {
     top: 0;
     left: 0;
 }
+
+/* #endregion main - product */
+
+/* #region footer */
+
+
+/* #endregion main - product */
+
