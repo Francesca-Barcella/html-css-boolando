@@ -11,8 +11,7 @@ img{
 }
 
 i{
-    color: green;
-    width: 30px;
+    height: 20px;
 }
 
 /* #endregion common */
@@ -41,6 +40,10 @@ i{
 .col-4{
     width: calc((100% / 12) * 4);
 }
+.alg_dx{
+    text-align: end;
+}
+
 /* #endregion utility */
 
 /* #region debug */
@@ -61,7 +64,9 @@ ul{
 }
 
 li{
-    margin: 0 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 li:hover{
@@ -70,9 +75,13 @@ li:hover{
 }
 
 #site_header img{
-    max-height: 20px;
+    max-height: 35px;
 }
 
+#site_header i{
+    padding-top: 10px;
+    padding-left: 10px;
+}
 /* #endregion header */
 
 
