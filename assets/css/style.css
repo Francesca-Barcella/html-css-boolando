@@ -8,6 +8,7 @@
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 i {
@@ -118,12 +119,17 @@ li:hover {
     top: 15px;
 }
 
+.bdg_heart:hover {
+    cursor: pointer;
+    color: red;
+}
+
 .bdg_red {
     background-color: red;
     width: 50px;
     position: absolute;
     left: 0;
-    bottom: 25px;
+    bottom: 100px;
 }
 
 .bdg_green {
@@ -131,7 +137,7 @@ li:hover {
     width: 100px;
     position: absolute;
     left: 55px;
-    bottom: 25px;
+    bottom: 100px;
 }
 
 .bdg_red,
@@ -162,4 +168,15 @@ li:hover {
 .article {
     font-size: 18px;
     font-weight: bold;
+}
+
+.over {
+    display: none;
+}
+
+.card:hover .over {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
